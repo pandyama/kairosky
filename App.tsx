@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import {
   StatusBar,
   StyleSheet,
-  Text,
   useColorScheme,
   View,
   KeyboardAvoidingView,
@@ -11,6 +10,9 @@ import {
   TextInput,
 } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
+import { weather } from './api/openweather';
+import CurrentWeather from './components/CurrentWeather/CurrentWeather';
+import WeatherCondition from './components/WeatherCondition/WeatherCondition';
 
 const GRADIENTS: Record<string, [string, string, ...string[]][]> = {
   sunny: [
@@ -63,12 +65,13 @@ const GRADIENTS: Record<string, [string, string, ...string[]][]> = {
 
 function App() {
   // const [fontsLoaded] = useFonts({
-  //   'Quicksand-Regular': require('./assets/fonts/Quicksand/Quicksand-Regular.ttf'),
+  //   'RadioCanada-Regular': require('./assets/fonts/Quicksand/RadioCanada-Regular.ttf'),
   //   'RadioCanada-Bold': require('./assets/fonts/RadioCanada/RadioCanada-Bold.ttf'),
   //   'RadioCanada-Regular': require('./assets/fonts/RadioCanada/RadioCanada-Regular.ttf'),
   // })
 
   const [value, onChangeText] = useState('');
+  const [cityWeather, setWeather]: any = useState(null);
 
   const windowHeight = useWindowDimensions().height;
 
@@ -83,24 +86,24 @@ function App() {
   ) => {
     console.log('🚀 >> getWeather >> city>>', city);
 
-    // try {
-    //   setLoading(true)
-    //   weather(city, lat, lon).then((res: any) => {
-    //     console.log('🚀 >> weather >> res>>', res.data)
-    //     if (res.success === false) {
-    //       setLoading(false)
-    //       setFetchWeather(false)
-    //       cityNotFoundAlert()
-    //     } else {
-    //       setLoading(false)
-    //       setFetchWeather(true)
-    //       setWeather(res.data)
-    //     }
-    //   })
-    // } catch (e) {
-    //   console.log('🚀 >> getWeather >> e>>', e)
-    //   setLoading(false)
-    // }
+    try {
+      // setLoading(true)
+      weather(city).then((res: any) => {
+        console.log('🚀 >> weather >> res>>', res.data);
+        if (res.success === false) {
+          // setLoading(false);
+          // setFetchWeather(false);
+          // cityNotFoundAlert();
+        } else {
+          // setLoading(false);
+          // setFetchWeather(true);
+          setWeather(res.data);
+        }
+      });
+    } catch (e) {
+      console.log('🚀 >> getWeather >> e>>', e);
+      // setLoading(false);
+    }
   };
 
   // const onLayoutRootView = useCallback(async () => {
@@ -136,7 +139,6 @@ function App() {
             style={{ flex: 1 }}
             contentContainerStyle={{ flexGrow: 1, paddingBottom: 250 }}
           >
-            <Text>Hello</Text>
             <View
               style={{
                 ...styles.container,
@@ -154,6 +156,28 @@ function App() {
                   onChangeText={onChangeText}
                 />
               </View>
+
+              <CurrentWeather
+                temperature={cityWeather?.temp.toString()}
+                description={cityWeather?.description.toString()}
+                time={cityWeather?.time.toString()}
+                date={cityWeather?.date.toString()}
+                city={cityWeather?.cityName.toString()}
+                country={cityWeather?.country.toString()}
+                icon={cityWeather?.icon}
+                high={cityWeather?.high.toString()}
+                low={cityWeather?.low.toString()}
+              />
+
+              <WeatherCondition
+                feelsLike={cityWeather?.feelsLike.toString()}
+                wind={cityWeather?.wind.toString()}
+                humidity={cityWeather?.humidity.toString()}
+                high={cityWeather?.high.toString()}
+                low={cityWeather?.low.toString()}
+                sunrise={cityWeather?.sunrise.toString()}
+                sunset={cityWeather?.sunset.toString()}
+              />
             </View>
           </ScrollView>
         </KeyboardAvoidingView>
