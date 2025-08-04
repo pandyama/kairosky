@@ -1,0 +1,65 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Quicksand/Quicksand-Bold.ttf",
+      "sha1": "8727a6ae26c6646a7f25bfe6560e19c9265ea87c"
+    },
+    {
+      "path": "assets/fonts/Quicksand/Quicksand-Light.ttf",
+      "sha1": "739d87992cf1cd96cff0c9c32e40927385a38146"
+    },
+    {
+      "path": "assets/fonts/Quicksand/Quicksand-Medium.ttf",
+      "sha1": "48d202c7a215914264064dc27f6a8cd77ebe3036"
+    },
+    {
+      "path": "assets/fonts/Quicksand/RadioCanada-Regular.ttf",
+      "sha1": "6eebfcb02f142c6e2bf58f7fcb31f10ec914a0ed"
+    },
+    {
+      "path": "assets/fonts/Quicksand/Quicksand-SemiBold.ttf",
+      "sha1": "43fdbf795bb0b7cc5b0d3dbcbdef0cdec0f29ca9"
+    },
+    {
+      "path": "assets/fonts/RadioCanada/RadioCanada-Bold.ttf",
+      "sha1": "6f72d343ed2ccb737b54f5127553bc9b743fd017"
+    },
+    {
+      "path": "assets/fonts/RadioCanada/RadioCanada-BoldItalic.ttf",
+      "sha1": "696b4314eb01feee075f321656f006fd44a013c8"
+    },
+    {
+      "path": "assets/fonts/RadioCanada/RadioCanada-Italic.ttf",
+      "sha1": "43d26b99ece1c13ffeec43b421c1f7b5412d6bfd"
+    },
+    {
+      "path": "assets/fonts/RadioCanada/RadioCanada-Light.ttf",
+      "sha1": "a0e3f8ca41c08ba6c6d495275186a1ffed696559"
+    },
+    {
+      "path": "assets/fonts/RadioCanada/RadioCanada-LightItalic.ttf",
+      "sha1": "ec1a613de9dc911946b2a879c1c383ee45103f6d"
+    },
+    {
+      "path": "assets/fonts/RadioCanada/RadioCanada-Medium.ttf",
+      "sha1": "7a82722705703df7b668bdbba5da664726f28ab9"
+    },
+    {
+      "path": "assets/fonts/RadioCanada/RadioCanada-MediumItalic.ttf",
+      "sha1": "b5c80c97d8dac643fc6fccbc90ebb768a90fee3b"
+    },
+    {
+      "path": "assets/fonts/RadioCanada/RadioCanada-Regular.ttf",
+      "sha1": "f676374a49dbc8c84fd54468d5ebb2802b8d2d48"
+    },
+    {
+      "path": "assets/fonts/RadioCanada/RadioCanada-SemiBold.ttf",
+      "sha1": "ae571688ca6f309d9dbba3ebacd69a0ec4f27820"
+    },
+    {
+      "path": "assets/fonts/RadioCanada/RadioCanada-SemiBoldItalic.ttf",
+      "sha1": "9b5eb846dc149dc78e921d77303c359ae5d36aa9"
+    }
+  ]
+}

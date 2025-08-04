@@ -11,6 +11,21 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		08FD81AC02034977863A2DDF /* Quicksand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CFE2283680094287B5C20A9C /* Quicksand-Bold.ttf */; };
+		3198611170564AA9AEE96369 /* Quicksand-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 926999CFCD2049C39300F89C /* Quicksand-Light.ttf */; };
+		25A78C0B45EC49CF832AC91B /* Quicksand-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 129CD1DCE3244B918455BFB0 /* Quicksand-Medium.ttf */; };
+		2A3BB9FA867F4153B185B25E /* RadioCanada-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E11AD90EAE14EB2A2BB0C6E /* RadioCanada-Regular.ttf */; };
+		57E4EF5E871447B28AA459BB /* Quicksand-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32D9B8210E08413B9901C541 /* Quicksand-SemiBold.ttf */; };
+		E2550FD1243448008C7AC638 /* RadioCanada-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A217C5C500AF403B8EF2742E /* RadioCanada-Bold.ttf */; };
+		A81DE5CD496945D18FB99C14 /* RadioCanada-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8A6E4B5E3BA49FE8813747A /* RadioCanada-BoldItalic.ttf */; };
+		994EF77B4458488B92D8B1CE /* RadioCanada-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC175F8B40364B1DB8F18F9D /* RadioCanada-Italic.ttf */; };
+		4185757ADCBF46A2B2733B27 /* RadioCanada-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C703F5DABEFC483FA78BE91B /* RadioCanada-Light.ttf */; };
+		B8C17582F5944DD789554BAA /* RadioCanada-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A284C2DF659F4084A56065F6 /* RadioCanada-LightItalic.ttf */; };
+		4CBAB2BF2E9E49D38F6DDE8C /* RadioCanada-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60ACFCFE6C754953AB887E38 /* RadioCanada-Medium.ttf */; };
+		8B5886664D8F49FE922FB52B /* RadioCanada-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D20785672DD428A9624775D /* RadioCanada-MediumItalic.ttf */; };
+		08B329010E5D4276B70AC613 /* RadioCanada-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B023B0E0527642ADAADA0713 /* RadioCanada-Regular.ttf */; };
+		6A97D46BDAC64E2BB9FD90C1 /* RadioCanada-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0E50F02515447C5A89E5226 /* RadioCanada-SemiBold.ttf */; };
+		2201EC970BD548F6B7B0BBAC /* RadioCanada-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A33BB55C24A64D34B7539AB3 /* RadioCanada-SemiBoldItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +50,21 @@
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = kairosky/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = kairosky/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		CFE2283680094287B5C20A9C /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; name = "Quicksand-Bold.ttf"; path = "../assets/fonts/Quicksand/Quicksand-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		926999CFCD2049C39300F89C /* Quicksand-Light.ttf */ = {isa = PBXFileReference; name = "Quicksand-Light.ttf"; path = "../assets/fonts/Quicksand/Quicksand-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		129CD1DCE3244B918455BFB0 /* Quicksand-Medium.ttf */ = {isa = PBXFileReference; name = "Quicksand-Medium.ttf"; path = "../assets/fonts/Quicksand/Quicksand-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5E11AD90EAE14EB2A2BB0C6E /* RadioCanada-Regular.ttf */ = {isa = PBXFileReference; name = "RadioCanada-Regular.ttf"; path = "../assets/fonts/Quicksand/RadioCanada-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		32D9B8210E08413B9901C541 /* Quicksand-SemiBold.ttf */ = {isa = PBXFileReference; name = "Quicksand-SemiBold.ttf"; path = "../assets/fonts/Quicksand/Quicksand-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A217C5C500AF403B8EF2742E /* RadioCanada-Bold.ttf */ = {isa = PBXFileReference; name = "RadioCanada-Bold.ttf"; path = "../assets/fonts/RadioCanada/RadioCanada-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E8A6E4B5E3BA49FE8813747A /* RadioCanada-BoldItalic.ttf */ = {isa = PBXFileReference; name = "RadioCanada-BoldItalic.ttf"; path = "../assets/fonts/RadioCanada/RadioCanada-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EC175F8B40364B1DB8F18F9D /* RadioCanada-Italic.ttf */ = {isa = PBXFileReference; name = "RadioCanada-Italic.ttf"; path = "../assets/fonts/RadioCanada/RadioCanada-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C703F5DABEFC483FA78BE91B /* RadioCanada-Light.ttf */ = {isa = PBXFileReference; name = "RadioCanada-Light.ttf"; path = "../assets/fonts/RadioCanada/RadioCanada-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A284C2DF659F4084A56065F6 /* RadioCanada-LightItalic.ttf */ = {isa = PBXFileReference; name = "RadioCanada-LightItalic.ttf"; path = "../assets/fonts/RadioCanada/RadioCanada-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		60ACFCFE6C754953AB887E38 /* RadioCanada-Medium.ttf */ = {isa = PBXFileReference; name = "RadioCanada-Medium.ttf"; path = "../assets/fonts/RadioCanada/RadioCanada-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8D20785672DD428A9624775D /* RadioCanada-MediumItalic.ttf */ = {isa = PBXFileReference; name = "RadioCanada-MediumItalic.ttf"; path = "../assets/fonts/RadioCanada/RadioCanada-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B023B0E0527642ADAADA0713 /* RadioCanada-Regular.ttf */ = {isa = PBXFileReference; name = "RadioCanada-Regular.ttf"; path = "../assets/fonts/RadioCanada/RadioCanada-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E0E50F02515447C5A89E5226 /* RadioCanada-SemiBold.ttf */ = {isa = PBXFileReference; name = "RadioCanada-SemiBold.ttf"; path = "../assets/fonts/RadioCanada/RadioCanada-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A33BB55C24A64D34B7539AB3 /* RadioCanada-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "RadioCanada-SemiBoldItalic.ttf"; path = "../assets/fonts/RadioCanada/RadioCanada-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +123,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				44DFC14F8CD642FCA0DED012 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -115,6 +146,29 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		44DFC14F8CD642FCA0DED012 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				CFE2283680094287B5C20A9C /* Quicksand-Bold.ttf */,
+				926999CFCD2049C39300F89C /* Quicksand-Light.ttf */,
+				129CD1DCE3244B918455BFB0 /* Quicksand-Medium.ttf */,
+				5E11AD90EAE14EB2A2BB0C6E /* RadioCanada-Regular.ttf */,
+				32D9B8210E08413B9901C541 /* Quicksand-SemiBold.ttf */,
+				A217C5C500AF403B8EF2742E /* RadioCanada-Bold.ttf */,
+				E8A6E4B5E3BA49FE8813747A /* RadioCanada-BoldItalic.ttf */,
+				EC175F8B40364B1DB8F18F9D /* RadioCanada-Italic.ttf */,
+				C703F5DABEFC483FA78BE91B /* RadioCanada-Light.ttf */,
+				A284C2DF659F4084A56065F6 /* RadioCanada-LightItalic.ttf */,
+				60ACFCFE6C754953AB887E38 /* RadioCanada-Medium.ttf */,
+				8D20785672DD428A9624775D /* RadioCanada-MediumItalic.ttf */,
+				B023B0E0527642ADAADA0713 /* RadioCanada-Regular.ttf */,
+				E0E50F02515447C5A89E5226 /* RadioCanada-SemiBold.ttf */,
+				A33BB55C24A64D34B7539AB3 /* RadioCanada-SemiBoldItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -185,6 +239,21 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				08FD81AC02034977863A2DDF /* Quicksand-Bold.ttf in Resources */,
+				3198611170564AA9AEE96369 /* Quicksand-Light.ttf in Resources */,
+				25A78C0B45EC49CF832AC91B /* Quicksand-Medium.ttf in Resources */,
+				2A3BB9FA867F4153B185B25E /* RadioCanada-Regular.ttf in Resources */,
+				57E4EF5E871447B28AA459BB /* Quicksand-SemiBold.ttf in Resources */,
+				E2550FD1243448008C7AC638 /* RadioCanada-Bold.ttf in Resources */,
+				A81DE5CD496945D18FB99C14 /* RadioCanada-BoldItalic.ttf in Resources */,
+				994EF77B4458488B92D8B1CE /* RadioCanada-Italic.ttf in Resources */,
+				4185757ADCBF46A2B2733B27 /* RadioCanada-Light.ttf in Resources */,
+				B8C17582F5944DD789554BAA /* RadioCanada-LightItalic.ttf in Resources */,
+				4CBAB2BF2E9E49D38F6DDE8C /* RadioCanada-Medium.ttf in Resources */,
+				8B5886664D8F49FE922FB52B /* RadioCanada-MediumItalic.ttf in Resources */,
+				08B329010E5D4276B70AC613 /* RadioCanada-Regular.ttf in Resources */,
+				6A97D46BDAC64E2BB9FD90C1 /* RadioCanada-SemiBold.ttf in Resources */,
+				2201EC970BD548F6B7B0BBAC /* RadioCanada-SemiBoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
