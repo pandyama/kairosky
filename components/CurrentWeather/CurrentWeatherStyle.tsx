@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-native'
+import { StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
   card: {
@@ -29,4 +29,4 @@ export const styles = StyleSheet.create({
     fontFamily: 'RadioCanada-Regular',
   },
   icon: { width: '20%', height: '20%' },
-})
+});
