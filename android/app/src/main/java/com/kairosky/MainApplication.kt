@@ -1,4 +1,4 @@
-package com.kairosky
+package com.mp.kairosky
 
 import android.app.Application
 import com.facebook.react.PackageList

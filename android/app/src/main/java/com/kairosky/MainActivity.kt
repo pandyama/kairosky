@@ -1,4 +1,4 @@
-package com.kairosky
+package com.mp.kairosky
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate
