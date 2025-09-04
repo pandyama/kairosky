@@ -1,5 +1,6 @@
 package com.mp.kairosky
 
+import com.mp.kairosky.BuildConfig
 import android.app.Application
 import com.facebook.react.PackageList
 import com.facebook.react.ReactApplication
