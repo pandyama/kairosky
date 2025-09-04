@@ -13,9 +13,8 @@ export const styles = StyleSheet.create({
     borderRadius: 30,
     alignItems: 'center',
     justifyContent: 'center',
-    padding: 8,
     flex: 1,
-    aspectRatio: 1,
+    aspectRatio: 1.2, // this changes the height not "padding"
     backgroundColor: '#C2E9FB',
   },
   text: {
