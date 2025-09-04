@@ -8,6 +8,7 @@ import {
   ScrollView,
   useWindowDimensions,
   TextInput,
+  Text,
 } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 import { weather } from './api/openweather';
@@ -169,6 +170,39 @@ function App() {
                 low={cityWeather?.low.toString()}
               />
 
+              <View style={styles.fiveDayForecast}>
+                <ScrollView
+                  horizontal={true}
+                  showsHorizontalScrollIndicator={false}
+                >
+                  <View style={styles.item}>
+                    <Text style={styles.dayForecast}>22&deg;</Text>
+                    <Text style={styles.dayForecast}>10&deg;</Text>
+                    <Text style={styles.dayForecast}>Today</Text>
+                  </View>
+                  <View style={styles.item}>
+                    <Text style={styles.dayForecast}>29&deg;</Text>
+                    <Text style={styles.dayForecast}>10&deg;</Text>
+                    <Text style={styles.dayForecast}>Thurs</Text>
+                  </View>
+                  <View style={styles.item}>
+                    <Text style={styles.dayForecast}>22&deg;</Text>
+                    <Text style={styles.dayForecast}>10&deg;</Text>
+                    <Text style={styles.dayForecast}>Fri</Text>
+                  </View>
+                  <View style={styles.item}>
+                    <Text style={styles.dayForecast}>29&deg;</Text>
+                    <Text style={styles.dayForecast}>10&deg;</Text>
+                    <Text style={styles.dayForecast}>Sat</Text>
+                  </View>
+                  <View style={styles.item}>
+                    <Text style={styles.dayForecast}>29&deg;</Text>
+                    <Text style={styles.dayForecast}>10&deg;</Text>
+                    <Text style={styles.dayForecast}>Sun</Text>
+                  </View>
+                </ScrollView>
+              </View>
+
               <WeatherCondition
                 feelsLike={cityWeather?.feelsLike.toString()}
                 wind={cityWeather?.wind.toString()}
@@ -187,6 +221,30 @@ function App() {
 }
 
 const styles = StyleSheet.create({
+  item: {
+    width: 60,
+    height: 80,
+    // backgroundColor: '#f0f0f0',
+    backgroundColor: '#111111',
+    marginHorizontal: 4,
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRadius: 8,
+  },
+  fiveDayForecast: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    margin: 5,
+    // borderWidth: 1,
+    // borderColor: 'black',
+  },
+  dayForecast: {
+    fontSize: 13,
+    // color: 'black',
+    color: '#FFFFFF',
+    fontFamily: 'RadioCanada-Regular',
+  },
   container: {
     flex: 1,
   },
